@@ -9,8 +9,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  
-  
 }
 
 h1 {
@@ -46,8 +44,6 @@ input:focus {
 ul {
   list-style: none;
   padding: 0;
-  
-  
 }
 
 .container {
@@ -74,6 +70,11 @@ label {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  width: 100%;
+  max-width: 400px;
+  /* Обмеження ширини форми */
+  margin: 0 auto;
+  /* Центрування форми */
 }
 
 button {
